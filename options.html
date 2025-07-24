@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Настройки FACEIT Helper</title>
+        <style>
+          body { font-family: sans-serif; padding: 10px 20px; min-width: 400px; }
+          h1 { font-size: 1.2em; }
+          label { display: block; margin-bottom: 5px; }
+          input[type="url"] { width: 100%; padding: 5px; margin-bottom: 10px; box-sizing: border-box;}
+          button { padding: 8px 15px; cursor: pointer; }
+          #status { margin-top: 10px; color: green; font-weight: bold; }
+        </style>
+      </head>
+      
+<body>
+  <h1>Настройки FACEIT Helper</h1>
+  <p>Вставьте сюда ссылку на <b>опубликованный</b> Google Документ.</p>
+  <label for="googleDocUrl">URL Google Документа:</label>
+  <input type="url" id="googleDocUrl" value="https://docs.google.com/document/d/1Z5_3cJCqZxWljQsQYV1pUhJhT-GzG_lEAFwHHvNYhwo/export?format=txt">
+  <button id="save">Сохранить</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

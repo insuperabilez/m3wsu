@@ -1,0 +1,37 @@
+/* Стиль для кнопки-иконки */
+.faceit-helper-button {
+    /* Убираем фон и рамку */
+    background-color: transparent;
+    border: none;
+    
+    /* Стилизация самой иконки */
+    font-size: 20px; /* Делаем иконку крупнее */
+    color: #ff5500; /* Оранжевый цвет FACEIT для узнаваемости */
+    
+    /* Позиционирование и поведение */
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 0;
+    vertical-align: middle; /* Лучше выравнивает иконку по центру строки */
+    transition: transform 0.2s ease;
+  }
+  
+  .faceit-helper-button:hover {
+    transform: scale(1.2); /* Эффект увеличения при наведении */
+  }
+  
+  /* Стиль для всплывающего блока с информацией (tooltip) */
+  .faceit-helper-tooltip {
+    position: absolute; /* Важно для позиционирования относительно страницы */
+    background-color: #2b2b2b; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+    padding: 10px 15px;
+    border-radius: 6px;
+    z-index: 10000; /* Должен быть поверх всех элементов FACEIT */
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: 1px solid #444;
+  }
